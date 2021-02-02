@@ -1,0 +1,28 @@
+{
+    "development": {
+        "secret_token":"9097a5a1-4c73-4bd8-a57d-201843883f38",
+        "node_port":"3000",
+        "configuration_id": "development",
+        "mongodb": {
+            "uri":"mongodb+srv://developer:developer@cadmusexemplo.ofweg.mongodb.net/cadmus_database?retryWrites=true&w=majority",
+            "options": {
+                "dbName": "cadmus_database",
+                "useNewUrlParser":  true,
+                "useUnifiedTopology": true
+            }
+        }
+    },
+    "production": {
+        "secret_token":"8f16b8db-395d-4259-a872-823578e3611b",
+        "node_port":"3015",
+        "configuration_id": "production",
+        "mongodb": {
+            "uri": "",
+            "options": {
+                "dbName": "service_fileshare",
+                "useNewUrlParser":  true,
+                "useUnifiedTopology": true
+            }
+        }
+    }
+}
